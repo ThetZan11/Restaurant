@@ -1,0 +1,519 @@
+body {
+    font-family: sans-serif;
+}
+
+/* Nav Bar  */
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: tomato;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 p {
+    text-align: center;
+    width: 500px;
+}
+
+h1 p:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid tomato;
+    transition: 1s;
+}
+
+/* #navbar {
+    overflow: hidden;
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: tomato;
+    z-index: 2;
+}
+
+#navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#navbar #logo {
+
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+#navbar a:hover {
+    background-color: white;
+    transition: 1s;
+    color: tomato;
+}
+
+#navbar-img {
+    float: left;
+    padding-left: 30px;
+}
+
+#navbar-menu {
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 40px;
+    float: left;
+}
+
+#navbar-icon {
+    padding-top: 30px;
+    float: right;
+    margin-left: 20px;
+}
+
+#navbar-icon img {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 580px) {
+    #navbar {
+        padding: 20px 10px !important;
+    }
+
+    #navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #navbar-right {
+        float: none;
+    }
+} */
+.navbar {
+    background-color: #f4511e;
+    z-index: 999;
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+    letter-spacing: 4px;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar .navbar-brand,
+.navbar li a {
+    color: #fff !important;
+    margin: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.navbar li a:hover {
+    background-color: #fff;
+    color: #f4511e !important;
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+.nav-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.navbar-toggler i{
+    font-size:25px;
+    color: #fff;
+
+}
+@media screen and (max-width:992px){
+    .navbar .nav-item a{
+        text-align:center;
+    }
+    .navbar .navbar-nav{
+        margin-top:10px;
+    }
+    .nav-img{
+        margin-left: 100px;
+    }
+    
+}
+@media screen and (max-width:500px){
+        .product-media{
+            padding-left: 80px;
+        }
+        .price{
+            margin-left: 80px;
+        }
+}
+
+.product-media{
+    width: 100%;
+}
+
+
+/* Image Slide Show */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.slideshow-container img {
+    height: 700px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    transition: 1s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 1;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: white;
+    color: tomato;
+}
+
+/* .box {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: tomato;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    position: absolute;
+    top: 30%;
+    left: 62%;
+    z-index: 1;
+    opacity: 3;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 50px;
+
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    font-style: bold;
+}
+
+.box1:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 25%;
+}
+
+.box2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.box2 a {
+    font-size: 30px;
+    color: tomato;
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 50px;
+    border-radius: 25px;
+    font-style: italic;
+}
+
+.box2 a:hover {
+    background-color: rgb(244, 6, 6);
+    color: white;
+    transition: 1s;
+} */
+
+.mySlides {
+    position: relative;
+    width: 100%;
+}
+
+@keyframes animation1 {
+    0% {
+        left: 5%;
+        top: 15%;
+    }
+
+    50% {
+        left: 30%;
+    }
+
+    100% {
+        left: 62%;
+        top: 30%;
+
+
+    }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+    .prev,
+    .next {
+        font-size: 11px
+    }
+}
+
+#booking {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    left: 10%;
+    margin-bottom: 20px;
+    position: relative;
+    background-image: url(../images/photo-1600891964599-f61ba0e24092.jpg);
+    background-size: cover;
+    
+}
+
+#booking h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#booking h1:hover {
+    color: tomato;
+    border-bottom: 5px solid tomato;
+    transition: 1s;
+}
+
+.table {
+    width: 50%;
+    height: 650px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.menu {
+    width: 50%;
+    height: 650px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#booking p {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#booking a {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 25px;
+    border: 3px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 130px;
+}
+
+#booking a:hover {
+    color: tomato;
+    border-color: tomato;
+    transition: 1s;
+}
+
+.product {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.product p {
+    font-size: 20px;
+    text-align: center;
+    color: tomato;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100%;
+    left: 25%;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.price {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+
+}
+
+#service {
+    margin: 30px;
+}
+
+.service2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.info-img{
+    width: 90%;
+    height: 100%;
+    padding-left: 50px;
+}
+.info-content{
+    padding-top: 40px;
+    padding-right: 80px;
+}
+.info-img2{
+    width: 90%;
+    height: 100%;
+}
+.info-content2{
+    padding-left: 70px;
+}
+/* Footer */
+.footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../images/Cravings\ _\ Tips\ &\ Tricks.png);
+    background-position: center;
+    margin-bottom: 30px;
+}
+.footer1{
+    width: 35%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.footer1 img{
+    margin: 10px;
+}
+.footer-icon{
+    margin-top: 70px;
+    font-size: 20px;
+}
+.footer-address{
+    font-size: 25px;
+}
+.footer2{
+    width: 35%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.footer2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%; 
+}
+.footer div{
+    margin-top: 30px;
+}
+.footer3{
+    width: 35%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.footer3 a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.footer3 a:hover{
+    color: tomato;
+    transition: 1s;
+}
+.footer3 p{
+    margin-top: 20px;
+}

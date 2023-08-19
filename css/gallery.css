@@ -1,0 +1,598 @@
+body {
+    font-family: sans-serif;
+}
+
+/* Nav Bar  */
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: tomato;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 p {
+    text-align: center;
+    width: 500px;
+}
+
+h1 p:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 5px solid tomato;
+    transition: 1s;
+}
+
+/* #navbar {
+    overflow: hidden;
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: tomato;
+    z-index: 2;
+}
+
+#navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#navbar #logo {
+
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+#navbar a:hover {
+    background-color: white;
+    transition: 1s;
+    color: tomato;
+}
+
+#navbar-img {
+    float: left;
+    padding-left: 30px;
+}
+
+#navbar-menu {
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 40px;
+    float: left;
+}
+
+#navbar-icon {
+    padding-top: 30px;
+    float: right;
+    margin-left: 20px;
+}
+
+#navbar-icon img {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 580px) {
+    #navbar {
+        padding: 20px 10px !important;
+    }
+
+    #navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #navbar-right {
+        float: none;
+    }
+} */
+.navbar {
+    background-color: #f4511e;
+    z-index: 999;
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+    letter-spacing: 4px;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar .navbar-brand,
+.navbar li a {
+    color: #fff !important;
+    margin: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.navbar li a:hover {
+    background-color: #fff;
+    color: #f4511e !important;
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+.nav-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.navbar-toggler i{
+    font-size:25px;
+    color: #fff;
+
+}
+@media screen and (max-width:992px){
+    .navbar .nav-item a{
+        text-align:center;
+    }
+    .navbar .navbar-nav{
+        margin-top:10px;
+    }
+    .nav-img{
+        margin-left: 100px;
+    }
+    
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../images/Cravings\ _\ Tips\ &\ Tricks.png);
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.footer1 {
+    width: 35%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.footer1 img {
+    margin: 10px;
+}
+
+.footer-icon {
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.footer-address {
+    font-size: 25px;
+}
+
+.footer2 {
+    width: 35%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.footer div {
+    margin-top: 30px;
+}
+
+.footer3 {
+    width: 35%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.footer3 a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.footer3 a:hover {
+    color: tomato;
+    transition: 1s;
+}
+
+.footer3 p {
+    margin-top: 20px;
+}
+
+#gallery-image {
+    
+    margin-bottom: 2px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/flatlay-iron-skillet-with-meat-and-other-food.jpg);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.gallery-container{
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 150px;
+    position: relative;
+}
+#gallery-image h1 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.photo1{
+    width: 400px;
+    height: 450px;
+    
+}
+.photo1 img{
+    width: 400px;
+    height: 450px;
+    margin-left: 25px;
+}
+.photo2{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top:0;
+    left: 35%;
+}
+.photo2 img{
+    width: 400px;
+    height:300px;
+    background-size: cover;
+}
+.photo3{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top:35%;
+    left: 35%;
+}
+.photo3 img{
+    width: 400px;
+    height:300px;
+    background-size: cover;
+}
+.photo4{
+    width: 400px;
+    height: 650px;
+    position: absolute;
+    top:0;
+    left: 68%;
+}
+.photo4 img{
+    width: 400px;
+    height:650px;
+    background-size: cover;
+}
+.photo5{
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    top:50%;
+}
+.photo5 img{
+    width: 450px;
+    height:600px;
+    background-size: cover;
+}
+.photo6{
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    top:68%;
+    left:40% ;
+}
+.photo6 img{
+    width: 750px;
+    height: 450px;
+    background-size: cover;
+    border-radius: 100%;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.header a{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.header a:hover{
+    background-color: white;
+    color: tomato;
+    border-radius: 30px;
+    transition:1s;
+}
+.gallery-intro{
+    background-color: tomato;
+    height: 300px;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/How\ to\ Visit\ New\ York\ Without\ Giving\ Anyone\ There\ Your\ Money\ -\ Washingtonian.jpg);
+    background-size: cover;
+    padding: 30px;
+}
+.title{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.gallery-container2{
+    height: 1200px;
+    position: relative;
+}
+.restaurant1{
+    width: 380px;
+    height: 600px;
+    background-size: cover;
+    background-image: url(../images/photo_2022-09-14_00-24-59.jpg);
+    background-size: cover;
+    border-radius: 40px;
+}
+.restaurant2{
+    width: 450px;
+    height: 300px;
+    background-size: cover;
+    background-image: url(../images/restaurant.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    border-radius: 30px;
+}
+.restaurant3{
+    width: 450px;
+    height: 700px;
+    background-size: cover;
+    background-image: url(../images/photo_2022-09-14_00-25-34.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 66%;
+    border-radius: 30px;
+}
+.restaurant4{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(../images/photo_2022-09-14_00-25-27.jpg);
+    background-size: cover;
+    position: absolute;
+    bottom: 38%;
+    left:33%;
+    border-radius: 100px;
+}
+.restaurant5{
+    width: 400px;
+    height: 530px;
+    background-size: cover;
+    background-image: url(../images/photo_2022-09-14_00-25-07.jpg);
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+}
+.restaurant6{
+    width: 850px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(../images/photo_2022-09-14_00-25-03.jpg);
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    border-radius: 50px;
+}
+
+.gallery-container3{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.family1{
+    width: 300px;
+    height:300px;
+    background-size: cover;
+    background-image: url(../images/founder.jpg);
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.family2{
+    width: 270px;
+    height:270px;
+    background-size: cover;
+    background-image: url(../images/chef4.jpg);
+    border-radius: 30px;
+    margin-top: 10px;
+    position: absolute;
+    top:35%;
+    left: 5%
+}
+.family3{
+    width: 270px;
+    height:270px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/chef1.jpg);
+    border-radius: 30px;
+    margin-top: 10px;
+    position: absolute;
+    top:35%;
+    left:29%
+}
+.family4{
+    width: 270px;
+    height:270px;
+    background-size: cover;
+    background-position:center;
+    background-image: url(../images/chef2.jpg);
+    border-radius: 30px;
+    margin-top: 10px;
+    position: absolute;
+    top:35%;
+    left:53%;
+}
+.family5{
+    width: 270px;
+    height:270px;
+    background-size: cover;
+    background-image: url(../images/Premium\ Photo\ _\ Portrait\ of\ smiling\ female\ chef\ holding\ plate.jpg);
+    border-radius: 30px;
+    margin-top: 10px;
+    position: absolute;
+    top:35%;
+    left: 77%;
+}
+.family6{
+    width: 270px;
+    height:270px;
+    background-size: cover;
+    background-image: url(../images/Chef.png);
+    border-radius: 30px;
+    margin-top: 10px;
+    position: absolute;
+    top:70%;
+    left: 5%;
+}
+.family7{
+    width: 270px;
+    height:270px;
+    background-size: cover;
+    background-image: url(../images/Chef\ \(1\).png);
+    border-radius: 30px;
+    margin-top: 10px;
+    position: absolute;
+    top:70%;
+    left: 29%;
+}
+.family8{
+    width: 270px;
+    height:270px;
+    background-size: cover;
+    background-image: url(../images/chef8.png);
+    border-radius: 30px;
+    margin-top: 10px;
+    position: absolute;
+    top:70%;
+    left: 53%;
+}
+.family9{
+    width: 270px;
+    height:270px;
+    background-size: cover;
+    background-image: url(../images/chef5.png);
+    border-radius: 30px;
+    margin-top: 10px;
+    position: absolute;
+    top:70%;
+    left: 77%;
+}
+.gallery-container4{
+    height: 800px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.kitchen1{
+    width: 400px;
+    height: 350px;
+    background-image: url(../images/Eleven\ Madison\ Park\ -\ The\ Taste\ Edit.jpg) ;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 2%;
+}
+.kitchen2{
+    width: 400px;
+    height: 350px;
+    background-image: url(../images/download.jpg) ;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+.kitchen3{
+    width: 400px;
+    height: 350px;
+    background-image: url(../images/The\ Bright\,\ The\ Bold\ &\ The\ Paleo\ Restaurant\,\ Brisbane\ QLD.png) ;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 68%;
+}
+
+.kitchen4{
+    width: 400px;
+    height: 400px;
+    background-image: url(../images/Learn\ About\ Restaurant\ Stations\ and\ the\ Layout\ of\ a\ Commercial\ Kitchen.jpg) ;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+.kitchen5{
+    width: 400px;
+    height: 400px;
+    background-image: url(../images/CULINARY\ SCHOOL\ OR\ BUST!\ \,\ organized\ by\ Ashley\ Walsh.jpg) ;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.kitchen6{
+    width: 400px;
+    height: 400px;
+    background-image: url(../images/Lo\ Que\ Debes\ Saber_\ Consejos\ Para\ El\ Mantenimiento\ del\ Equipo\ de\ Restaurante.jpg) ;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 68%;
+}
